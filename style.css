@@ -1,0 +1,7 @@
+label {
+  display: block;
+}
+
+#naslov {
+  text-transform: capitalize;
+}
