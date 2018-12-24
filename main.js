@@ -12,6 +12,7 @@ function potrazi() {
   fetch(url)
     .then(response => response.json())
     .then(data => {
+      console.log(data)
       naslovElement.innerText = izvodjac + ' - ' + pesma
       rezultatElement.innerText = data.lyrics
     })
