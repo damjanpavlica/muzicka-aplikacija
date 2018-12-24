@@ -1,13 +1,20 @@
 const frazaInput = document.getElementById('fraza')
 const rezultatDiv = document.getElementById('rezultat')
+const dugme = document.getElementById('dugme')
+const forma = document.getElementById('forma')
+const loader = document.getElementById('loader')
 
-function ucitatiSugestije() {
+function ucitatiSugestije(e) {
+  e.preventDefault()
+  loader.style.display = 'inline'
+  rezultatDiv.innerHTML = ''
   fetch(`https://api.lyrics.ovh/suggest/${frazaInput.value}`)
     .then(response => response.json())
     .then(response => {
+      loader.style.display = 'none'
       const sugestije = response.data
       let sablon = ``
-      for (let i = 0; i < 10; i++) {
+      for (let i = 0; i < sugestije.length; i++) {
         const pesma = sugestije[i]
         sablon += `
           <div>
@@ -27,4 +34,5 @@ function ucitatiSugestije() {
     })
 }
 
-frazaInput.addEventListener('input', ucitatiSugestije)
+dugme.addEventListener('click', ucitatiSugestije)
+forma.addEventListener('submit', ucitatiSugestije)
