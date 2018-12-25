@@ -1,6 +1,6 @@
 # Muzicka aplikacija
 
-Aplikacija koja koristi javni API za pretragu tekstova pesama.
+Javascript aplikacija koja koristi javni API za pretragu tekstova pesama.
 
 ## TODO
 
