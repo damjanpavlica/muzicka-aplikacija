@@ -10,6 +10,7 @@ Javascript aplikacija koja koristi javni [Lyrics API](https://lyrics.ovh/) za pr
 - dodati obavezna polja na formu i slicne provere
 - organizovati js i css fajlove
 - dodati preload atribut na prvi audio plejer
+- da radi enter na drugoj formi
 - napredno: prikazati tekst pesme klikom na predlozenu sugestiju
 
 ## Bonus: novi API-ji
