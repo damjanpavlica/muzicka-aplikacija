@@ -1,6 +1,6 @@
 # Muzicka aplikacija
 
-Javascript aplikacija koja koristi javni [Lyrics API](https://lyrics.ovh/) za pretragu tekstova pesama.
+Javascript aplikacija koja koristi javni [Lyrics API](https://lyrics.ovh/) za pretragu pesama.
 
 ## TODO
 
