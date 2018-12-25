@@ -32,3 +32,14 @@ Link ka stranici sa notama (unosi se id pesme dobijen preko prethodnog poziva):
 ```
 http://www.songsterr.com/a/wa/song?id={id}
 ```
+
+Moze i bez id-a:
+```
+http://www.songsterr.com/a/wa/bestMatchForQueryString?s=${song title}&a=${artist name}
+```
+
+npr:
+
+```
+http://www.songsterr.com/a/wa/bestMatchForQueryString?s=Fade to black&a=Metallica
+```
