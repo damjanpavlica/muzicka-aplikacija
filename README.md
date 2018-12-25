@@ -22,13 +22,11 @@ Izlistava sve pesme trazenog izvodjaca:
 https://www.songsterr.com/a/ra/songs/byartists.json?artists=Metallica
 ```
 
-ili 
+ili ako su dve reci mora pod navodnicima:
 
 ```
 https://www.songsterr.com/a/ra/songs/byartists.json?artists="Bob Marley"
 ```
-
-(kad je dve reci mora pod navodnicima)
 
 Link ka HTML stranici sa tablaturom (unosi se id pesme dobijen preko prethodnog poziva):
 ```
