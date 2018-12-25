@@ -12,9 +12,11 @@ Javascript aplikacija koja koristi javni [Lyrics API](https://lyrics.ovh/) za pr
 - dodati preload atribut na prvi audio plejer
 - napredno: prikazati tekst pesme klikom na predlozenu sugestiju
 
-## Bonus: novi API endpointi
+## Bonus: novi API-ji
 
-- Izlistava sve pesme datog izvodjaca: 
+### API za tablature
+
+Izlistava sve pesme trazenog izvodjaca: 
 
 ```
 https://www.songsterr.com/a/ra/songs/byartists.json?artists=Metallica
@@ -27,3 +29,8 @@ https://www.songsterr.com/a/ra/songs/byartists.json?artists="Bob Marley"
 ```
 
 (kad je dve reci mora pod navodnicima)
+
+Link ka HTML stranici sa tablaturom (unosi se id pesme dobijen preko prethodnog poziva):
+```
+http://www.songsterr.com/a/wa/song?id={id}
+```
