@@ -14,12 +14,16 @@ Javascript aplikacija koja koristi javni [Lyrics API](https://lyrics.ovh/) za pr
 
 ## Bonus: novi servisi
 
-- Nalazi sve pesme datog izvodjaca: 
+- Izlistava sve pesme datog izvodjaca: 
 
-`https://www.songsterr.com/a/ra/songs/byartists.json?artists=Metallica` 
+```
+https://www.songsterr.com/a/ra/songs/byartists.json?artists=Metallica
+```
 
 ili 
 
-`https://www.songsterr.com/a/ra/songs/byartists.json?artists="Bob Marley"`
+```
+https://www.songsterr.com/a/ra/songs/byartists.json?artists="Bob Marley"
+```
 
 (kad je dve reci mora pod navodnicima)
