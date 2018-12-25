@@ -28,7 +28,7 @@ ili ako su dve reci mora pod navodnicima:
 https://www.songsterr.com/a/ra/songs/byartists.json?artists="Bob Marley"
 ```
 
-Link ka HTML stranici sa tablaturom (unosi se id pesme dobijen preko prethodnog poziva):
+Link ka stranici sa notama (unosi se id pesme dobijen preko prethodnog poziva):
 ```
 http://www.songsterr.com/a/wa/song?id={id}
 ```
