@@ -12,9 +12,14 @@ Javascript aplikacija koja koristi javni [Lyrics API](https://lyrics.ovh/) za pr
 - dodati preload atribut na prvi audio plejer
 - napredno: prikazati tekst pesme klikom na predlozenu sugestiju
 
-Bonus:
+## Bonus: novi servisi
+
 - Nalazi sve pesme datog izvodjaca: 
+
 `https://www.songsterr.com/a/ra/songs/byartists.json?artists=Metallica` 
+
 ili 
+
 `https://www.songsterr.com/a/ra/songs/byartists.json?artists="Bob Marley"`
+
 (kad je dve reci mora pod navodnicima)
