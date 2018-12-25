@@ -12,7 +12,7 @@ Javascript aplikacija koja koristi javni [Lyrics API](https://lyrics.ovh/) za pr
 - dodati preload atribut na prvi audio plejer
 - napredno: prikazati tekst pesme klikom na predlozenu sugestiju
 
-## Bonus: novi API-ji
+## Bonus: novi API endpointi
 
 - Izlistava sve pesme datog izvodjaca: 
 
