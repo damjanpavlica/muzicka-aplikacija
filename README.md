@@ -38,3 +38,11 @@ Moze i bez id-a, npr:
 ```
 http://www.songsterr.com/a/wa/bestMatchForQueryString?s=Fade to black&a=Metallica
 ```
+
+### API za video
+
+```
+https://itunes.apple.com/search?term=bob+marley&entity=musicVideo
+```
+
+Rezultati imaju `previewUrl` atribut koji daje video URL od 30 sekundi
