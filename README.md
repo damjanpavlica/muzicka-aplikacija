@@ -9,4 +9,5 @@ Javascript aplikacija koja koristi javni [Lyrics API](https://lyrics.ovh/) za pr
 - handlovati greske?
 - dodati obavezna polja na formu i slicne provere
 - organizovati js i css fajlove
+- dodati preload atribut na prvi audio plejer
 - napredno: prikazati tekst pesme klikom na predlozenu sugestiju
