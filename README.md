@@ -4,7 +4,6 @@ Javascript aplikacija koja koristi javni [Lyrics API](https://lyrics.ovh/) za pr
 
 ## TODO
 
-- srediti dizajn
 - povezati stranice sajta
 - handlovati greske?
 - dodati obavezna polja na formu i slicne provere

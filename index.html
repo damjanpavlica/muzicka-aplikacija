@@ -8,20 +8,36 @@
 </head>
 <body>
 
-  <h1>Pronadji tekst pesme</h1>
+  <header>
+    <nav><div class="logo">M<span>A</span> </span></nav>
+  </header>
 
-  <label for="izvodjac">Naziv izvodjaca: </label>
-  <input id="izvodjac">
+  <div class="background"></div>
 
-  <label for="pesma">Naziv pesme:</label>
-  <input id="pesma">
+  <div class="wrapper">
 
-  <p><button id="potrazi">Potrazi</button></p>
+    <div class="izvodjac-container"> 
+      <input id="izvodjac" placeholder="Naziv izvodjaca">
+      <label for="izvodjac">Naziv izvodjaca</label>
+    </div>
 
-  <div>
-    <h2 id="naslov"></h2>
-    <p id="rezultat"></p>
+    <div class="pesma-container">
+      <input id="pesma" placeholder="Naziv pesme">
+      <label for="pesma">Naziv pesme</label>
+    </div>
+
+    <div class="button-container">
+        <a href="#" id="potrazi">Pretrazi</a>
+    </div>
+    
+  
+    <div class="rezultat-container">
+      <h2 id="naslov"></h2>
+      <p id="rezultat"></p>
+    </div>
   </div>
+
+
 
   <script src="main.js"></script>
 </body>

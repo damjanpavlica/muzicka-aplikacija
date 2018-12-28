@@ -1,7 +1,151 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+ 
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top:0;
+  left:0;
+  background-image: linear-gradient(to left, rgba(67,67,67,.9), rgba(0,0,0,.9)), url(https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: top;
+  z-index: -1000;
+}
+
+nav {
+  margin: 0;
+  padding: 5px 25px;
+  height: 60px;
+  background: linear-gradient(to top, rgba(18,18,18,.8), rgba(0,0,0,.8));
+}
+.logo {
+  color: white;
+  font-size: 60px;
+  letter-spacing: -10px;
+}
+
+.logo span {
+  display: inline-block;
+  transform: skewX(21deg);
+}
+
 label {
+  font-size: 14px;
   display: block;
+  color: #999;
 }
 
 #naslov {
   text-transform: capitalize;
 }
+
+.wrapper {
+  width: 80%;
+  padding: 100px 10%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.izvodjac-container {
+  display: inline-block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.pesma-container {
+  display: inline-block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.button-container {
+  margin-top: 31px;
+  text-align: center;
+}
+
+#potrazi,
+#potrazi:focus, 
+#potrazi:active {
+  padding: 5px 10px;
+  background: linear-gradient(to left, #202020, #000000);
+  color: #777;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 3px;
+  transition: all .3s;
+}
+
+#potrazi:hover {
+  background: #777;
+  color: #303030;
+  transform: scaleX(1.1);
+}
+
+input, input:focus {
+  outline: none;
+  border: none;
+  padding: 3px 20%;
+  margin: 5px;
+  color:#999;
+  font-size: 14px;
+  background-color: transparent;
+  border-bottom: 1px solid #777;
+  text-align: center;
+}
+
+input::placeholder {
+  text-align: center;
+  opacity: 1;
+}
+
+.pesma-container label {
+  opacity: 0;
+}
+
+.pesma-container input:focus + label {
+  animation: labelAnim .2s ease-in;
+  opacity: 1;
+}
+.pesma-container input:focus::placeholder {
+  opacity: 0;
+}
+
+.izvodjac-container label {
+  opacity: 0;
+}
+
+.izvodjac-container input:focus + label {
+  animation: labelAnim .2s ease-in;
+  opacity: 1;
+}
+.izvodjac-container input:focus::placeholder {
+  opacity: 0;
+}
+
+
+#naslov,
+#rezultat {
+  color: #ccc;
+}
+
+@keyframes labelAnim {
+  0%{
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
