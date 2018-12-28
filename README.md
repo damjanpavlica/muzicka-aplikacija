@@ -4,13 +4,18 @@ Javascript aplikacija koja koristi javni [Lyrics API](https://lyrics.ovh/) za pr
 
 ## TODO
 
+- ponovo srediti dizajn (za navigaciju)
+- dodati favicon
+- napraviti video stranicu
+- napraviti stranicu za akorde
+- napredno: prikazati tekst pesme klikom na predlozenu sugestiju
+
 - povezati stranice sajta ✓
 - dodati obavezna polja na formu i slicne provere ✓
 - da radi enter na drugoj formi ✓
 - organizovati js i css fajlove ✓
 - dodati preload atribut na prvi audio plejer ✓
 - handlovati greske ✓
-- napredno: prikazati tekst pesme klikom na predlozenu sugestiju
 
 ## Bonus: novi API-ji
 
