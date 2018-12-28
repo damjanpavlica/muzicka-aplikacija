@@ -22,7 +22,7 @@ function ucitatiSugestije(e) {
             <p>Sa albuma: <i>${pesma.album.title}</i></p>
             <img src="${pesma.album.cover}" alt="Omot albuma">
             <div>
-              <audio src="${pesma.preview}" controls></audio>
+              <audio src="${pesma.preview}" controls ${i == 0 ? "preload" : ""}></audio>
               <a href="${pesma.link}" title="Deezer" target="_blank"><img src="slike/deezer-logo.svg" width="50" alt="Deezer" title="Pusti na Deezeru"></a>
             </div>
             <p>Trajanje: ${pesma.duration}s</p>
@@ -32,7 +32,7 @@ function ucitatiSugestije(e) {
       }
       rezultatDiv.innerHTML = sablon
     })
+    .catch(e => alert("Doslo je do greske prilikom ucitavanja. Proverite vas wifi."))
 }
 
-dugme.addEventListener('click', ucitatiSugestije)
 forma.addEventListener('submit', ucitatiSugestije)

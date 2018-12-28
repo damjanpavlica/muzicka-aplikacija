@@ -8,18 +8,31 @@
 </head>
 <body>
 
-  <h1>Pronadji pesmu</h1>
+  <header>
+    <nav>
+      <div class="logo">M<span>A</span> </span></div>
+      <a href="index.html">Pronadji tekst</a>
+      <a href="sugestije.html">Pronadji pesmu</a>
+      <a href="#">Pronadji video</a>
+      <a href="#">Pronadji akorde</a>
+    </nav>
+  </header>
 
-  <form id="forma">
-    <label for="fraza">Unesite trazeni pojam: </label>
-    <input id="fraza">
-    <button id="dugme">Potrazi</button>
-  </form>
+  <div class="background"></div>
 
-  <img id="loader" src="slike/loader.gif" alt="loading..." style="display: none">
+  <div class="wrapper">
+    <h1>Pronadji pesmu</h1>
 
-  <div id="rezultat"></div>
+    <form id="forma">
+      <label for="fraza">Unesite trazeni pojam: </label>
+      <input id="fraza">
+      <button id="dugme">Potrazi</button>
+    </form>
 
-  <script src="sugestije.js"></script>
+    <img id="loader" src="slike/loader.gif" alt="loading..." style="display: none">
+
+    <div id="rezultat"></div>
+  </div>
+  <script src="js/sugestije.js"></script>
 </body>
 </html>

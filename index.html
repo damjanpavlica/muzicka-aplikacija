@@ -9,28 +9,36 @@
 <body>
 
   <header>
-    <nav><div class="logo">M<span>A</span> </span></nav>
+    <nav>
+      <div class="logo">M<span>A</span> </span></div>
+      <a href="index.html">Pronadji tekst</a>
+      <a href="sugestije.html">Pronadji pesmu</a>
+      <a href="#">Pronadji video</a>
+      <a href="#">Pronadji akorde</a>
+    </nav>
   </header>
 
   <div class="background"></div>
 
   <div class="wrapper">
+    <h1>Pronadji tekst pesme</h1>
 
-    <div class="izvodjac-container"> 
-      <input id="izvodjac" placeholder="Naziv izvodjaca">
-      <label for="izvodjac">Naziv izvodjaca</label>
-    </div>
+    <form id="forma-za-tekstove">
+      <div class="izvodjac-container">
+        <input id="izvodjac" placeholder="Naziv izvodjaca" required>
+        <label for="izvodjac">Naziv izvodjaca</label>
+      </div>
 
-    <div class="pesma-container">
-      <input id="pesma" placeholder="Naziv pesme">
-      <label for="pesma">Naziv pesme</label>
-    </div>
+      <div class="pesma-container">
+        <input id="pesma" placeholder="Naziv pesme" required>
+        <label for="pesma">Naziv pesme</label>
+      </div>
 
-    <div class="button-container">
-        <a href="#" id="potrazi">Pretrazi</a>
-    </div>
-    
-  
+      <div class="button-container">
+          <button id="potrazi">Pretrazi</button>
+      </div>
+    </form>
+
     <div class="rezultat-container">
       <h2 id="naslov"></h2>
       <p id="rezultat"></p>
@@ -39,6 +47,6 @@
 
 
 
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
